@@ -1,1 +1,1 @@
-console.log("hello everyone")
+alert("If you know you know")
