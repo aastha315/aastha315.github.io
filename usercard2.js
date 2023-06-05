@@ -21,10 +21,10 @@ let flipdata = function() {
     else
     {
         displayobject = charlieoldinfo;
-        ischarlieold = trud;
+        ischarlieold = true;
     }
 
     document.getElementById("charlie's img").src= displayobject.imgurl;
     document.getElementById("chname").innerHTML=displayobject.name;
-    document.getElementById("decs").innerHTML=displayobject.name
+    document.getElementById("decs").innerHTML=displayobject.Description
 }
