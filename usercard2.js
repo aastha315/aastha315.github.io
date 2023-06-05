@@ -1,11 +1,11 @@
 let charlieoldinfo = {
-    imgurl: "https://tse2.mm.bing.net/th?id=OIP.h1u0WdtyHk1mITELUMvfPwHaEo&pid=Api&P=0&h=180",
+    imgurl: "https://www.aceshowbiz.com/images/wennpic/charlie-puth-2016-kids-choice-awards-01.jpg",
     name: "Charlie Puth",
     Description: "Underated artist"
 }
 
 let charlieyounginfo = {
-    imgurl: "https://tse3.mm.bing.net/th?id=OIP.NxIhSDYNWuiI7EHC7yu9QgHaHA&pid=Api&P=0&h=180",
+    imgurl: "https://i2.wp.com/abtc.ng/wp-content/uploads/2021/01/Charlie-Puth-1.jpg?resize=1024%2C1024&ssl=1",
     name: "Charles Autto Puth",
     Description: "Great Artist but still underated"
 }
