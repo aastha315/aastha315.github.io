@@ -15,7 +15,7 @@ let displayobject;
 let flipdata = function() {
     if(ischarlieold == true)
     {
-        displayobject = charlieyounginfo;
+        displayobject = charlienewinfo;
         ischarlieold = false;
     }
     else
@@ -24,7 +24,7 @@ let flipdata = function() {
         ischarlieold = true;
     }
 
-    document.getElementById("charlie's img").src= displayobject.imgurl;
-    document.getElementById("chname").innerHTML=displayobject.name;
-    document.getElementById("decs").innerHTML=displayobject.Description
+    document.getElementById("charlie-img").src= displayobject.imgurl;
+    document.getElementById("charlie-name").innerHTML=displayobject.name;
+    document.getElementById("charlie-desc").innerHTML=displayobject.Description
 }
