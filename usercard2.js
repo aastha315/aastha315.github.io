@@ -1,30 +1,27 @@
 let charlieoldinfo = {
-    imgurl:"https://www.aceshowbiz.com/images/wennpic/charlie-puth-2016-kids-choice-awards-01.jpg",
-    name: "Charles Auto puth  ",
-    Description: "Unrated Artist"
+    imgurl: "https://tse2.mm.bing.net/th?id=OIP.h1u0WdtyHk1mITELUMvfPwHaEo&pid=Api&P=0&h=180",
+    name: "Charlie Puth",
+    Description: "Underated artist"
 }
 
-let charlienewinfo = {
-    imgurl:"https://i2.wp.com/abtc.ng/wp-content/uploads/2021/01/Charlie-Puth-1.jpg?resize=1024%2C1024&ssl=1",
-    name:"Charlie Puth",
-    Description:" Still pretty underated"
+let charlieyounginfo = {
+    imgurl: "https://tse3.mm.bing.net/th?id=OIP.NxIhSDYNWuiI7EHC7yu9QgHaHA&pid=Api&P=0&h=180",
+    name: "Charles Autto Puth",
+    Description: "Great Artist but still underated"
 }
 
 let ischarlieold = true;
 let displayobject;
-let flipdata = function() {
-    if(ischarlieold == true)
-    {
-        displayobject = charlienewinfo;
+let flipdata = function(){
+    if(ischarlieold == true){
+        displayobject = charlieyounginfo;
         ischarlieold = false;
     }
-    else
-    {
+    else{
         displayobject = charlieoldinfo;
         ischarlieold = true;
     }
-
-    document.getElementById("charlie-img").src= displayobject.imgurl;
-    document.getElementById("charlie-name").innerHTML=displayobject.name;
-    document.getElementById("charlie-desc").innerHTML=displayobject.Description
+    document.getElementById("charlie-img").src = displayobject.imgurl;
+    document.getElementById("charlie-name").innerHTML = displayobject.name;
+    document.getElementById("charlie-description").innerHTML = displayobject.Description;
 }
