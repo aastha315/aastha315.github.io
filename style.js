@@ -1,1 +1,1 @@
-alert("If you know you know")
+alert("VOLDEMORT WANTS TO KNOW YOUR LOCATION")
