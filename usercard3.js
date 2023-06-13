@@ -5,7 +5,6 @@ let charlieoldinfo = {
 }
 
 
-
 let displayobject;
 let getRandomUser = function(){
     fetch("https://randomuser.me/api")
